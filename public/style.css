@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primaryBgColor: #162B32;
+    --primaryFColor: #ffffff;
+    --secondaryFColor: #6A777C;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
+.m-site {
+    /* margin: 10px auto; */
+    width: 360px;
+    height: 640px;
+    margin-bottom: 6rem;
+    background-color: var(--primaryBgColor);
+    color: var(--primaryFColor);
+}

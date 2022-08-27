@@ -1,0 +1,409 @@
+.headerSpage {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftCon {
+    position: absolute;
+    display: flex;
+}
+
+.arrow {
+    position: absolute;
+    width: 5.5px;
+    height: 11px;
+    left: 20px;
+    top: 32px;
+}
+
+.year {
+    position: absolute;
+    width: 28px;
+    height: 16px;
+    left: 34px;
+    top: 29px;
+
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.month {
+    display: flex;
+    position: absolute;
+    width: 96px;
+    height: 26px;
+    left: 66px;
+    top: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #2B4047;
+    border-radius: 50px;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 320px;
+    top: 25px;
+}
+
+.days {
+    position: relative;
+    left: 19px;
+    top: 72px;
+    width: 100%;
+    display: flex;
+    gap: 1.3rem;
+}
+
+.day-items {
+    padding: 5px;
+}
+
+.day-items p {
+    margin: 10px 0;
+}
+
+.th {
+    background-color: #FFFFFF;
+    width: 34px;
+    height: 62px;
+    text-align: center;
+    color: #000;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.dots {
+    display: flex;
+    gap: 2px;
+    margin: -5px 0 0 9px;
+}
+
+.sa .dots {
+    margin: -5px 0 0 1px;
+}
+
+.dot1 {
+    width: 4px;
+    height: 4px;
+    background-color: #FF9999;
+    border-radius: 50%;
+}
+
+.dot2 {
+    width: 4px;
+    height: 4px;
+    background-color: #FFC01F;
+    ;
+    border-radius: 50%;
+}
+
+.dot3 {
+    width: 4px;
+    height: 4px;
+    background-color: #97EFDF;
+    ;
+    border-radius: 50%;
+}
+
+
+/* Footer container */
+
+.main-container {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    width: 360px;
+    height: 496px;
+    left: -2px;
+    top: 104px;
+    border: 1px solid black;
+    background: #FFFFFF;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.line {
+    position: absolute;
+    width: 35px;
+    height: 0px;
+    left: 163px;
+    top: 12px;
+    border: 2px solid #DADADA;
+}
+
+.event-text {
+    position: absolute;
+    width: 133px;
+    height: 16px;
+    left: 20px;
+    top: 29px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+
+.h-view {
+    position: absolute;
+    left: -4px;
+    top: -123px;
+}
+
+.des-scr {
+    position: absolute;
+    width: 136px;
+    height: 77px;
+    left: 20px;
+    top: 194px;
+    box-shadow: -5px 0px 0px 0px #FF9999;
+    background: #FFE0E0;
+    border-radius: 16px;
+    margin-right: 15px;
+    color: #000;
+}
+
+.q2-plan {
+    position: absolute;
+    width: 136px;
+    height: 77px;
+    left: 164px;
+    top: 194px;
+    box-shadow: -5px 0px 0px 0px #FFC01F;
+    background: #FFE8AC;
+    border-radius: 16px;
+    margin-right: 15px;
+}
+
+.coldplay {
+    position: absolute;
+    width: 56px;
+    height: 77px;
+    left: 308px;
+    top: 194px;
+    box-shadow: -5px 0px 0px 0px #5db9aa;
+    background: #97EFE0;
+    border-radius: 16px 0 0 16px;
+    overflow: hidden;
+}
+
+.des-head {
+    position: absolute;
+    width: 74px;
+    height: 14px;
+    left: 9px;
+    top: 4px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+}
+
+.stime {
+    position: absolute;
+    width: 50px;
+    height: 14px;
+    left: 9px;
+    top: 59px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+}
+
+.timer {
+    position: absolute;
+    width: 41px;
+    height: 12px;
+    left: 59px;
+    top: 59px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    /* identical to box height */
+
+    color: #898989;
+}
+
+/* .avatars{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 31px;
+    top: 218px;
+    
+    background: url(.jpg), #C4C4C4;
+    border: 1px solid #FFEFEF;
+} */
+
+.avatars {
+    position: absolute;
+    border: 1px solid #FFEFEF;
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    left: 84px;
+    top: 25px;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+img:nth-child(n+2) {
+    margin-left: -50px;
+}
+
+.current-time {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 87%;
+    left: 20px;
+    top: 166px;
+}
+
+.setday {
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+
+.settemp {
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: right;
+    color: #0077E4;
+}
+
+/* Vertical containers in 2nd page */
+
+.v-view {
+    position: relative;
+    height: 45%;
+    top: 190px;
+    outline: 1px solid red;
+}
+
+.starttime {
+
+    position: absolute;
+    width: 45px;
+    height: 14px;
+    left: 18px;
+    top: 16px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* identical to box height */
+
+    color: #4A4A4A;
+}
+
+.interval {
+    position: absolute;
+    width: 49px;
+    height: 14px;
+    left: 15px;
+    top: 30px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* identical to box height */
+
+    color: #898989;
+}
+
+.tile1 {
+    position: absolute;
+    width: 268px;
+    height: 77px;
+    left: 72px;
+    /* top: 323px; */
+    background: #FFE0E0;
+    border-radius: 16px;
+    box-shadow: -5px 0px 0px 0px #FF9999;
+}
+
+.tile1-heading {
+    position: absolute;
+    width: 74px;
+    height: 14px;
+    left: 14px;
+    top: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4A4A4A;
+}
+
+.tile1-number {
+
+    position: absolute;
+    width: 62px;
+    height: 12px;
+    left: 30px;
+    top: 55px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4A4A4A;
+}
+
+.reload {
+    position: absolute;
+    left: 109.9%;
+    top: 10.9%;
+}
+
+.tile2 {
+    position: absolute;
+    width: 268px;
+    height: 77px;
+    left: 72px;
+    top: 83px;
+    background: #FFE8AC;
+    border-radius: 16px;
+}

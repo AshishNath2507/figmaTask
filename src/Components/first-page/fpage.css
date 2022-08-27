@@ -1,0 +1,128 @@
+:root {
+    --primaryBgColor: #162B32;
+    --primaryFColor: #ffffff;
+    --secondaryFColor: #6A777C;
+    --ternaryFColor: #4A4A4A;
+}
+
+/* * {
+    outline: 1px solid black;
+} */
+
+.header {
+    position: absolute;
+    height: 46px;
+    width: 235px;
+    left: 16px;
+    top: 48px;
+    display: flex;
+    gap: .5rem;
+}
+
+.hd1 {
+    font-size: 40px;
+    line-height: 46px;
+    color: var(--secondaryFColor);
+}
+
+.hd2 {
+    font-size: 40px;
+    line-height: 46px;
+    color: var(--primaryFColor);
+}
+
+.center {
+    background-color: var(--primaryBgColor);
+    position: absolute;
+    width: 329.81px;
+    height: 343px;
+    left: 15.1px;
+    top: 141px;
+}
+
+.footer-content {
+    position: relative;
+    width: 360px;
+    height: 192px;
+    left: 0px;
+    top: 448px;
+    background: #FFFFFF;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.footer-para {
+    width: 360px;
+    height: 192px;
+    left: 0px;
+    top: 448px;
+    background: var(--primaryFColor);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.footerp1 {
+    text-align: left;
+    height: 23px;
+    width: 83px;
+    color: var(--ternaryFColor);
+}
+
+.footerp1 .typo1 {
+    position: absolute;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    left: 16px;
+    top: 16px;
+}
+
+.footerp2 {
+    position: absolute;
+    width: 328px;
+    height: 68px;
+    left: 16px;
+    top: 47px;
+    right: 16px;
+    bottom: 77px;
+}
+
+.footerp2 .typo2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: var(--ternaryFColor);
+}
+
+.typo2 .typo2-bold {
+    font-weight: 1000;
+}
+
+.ellipse {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 291px;
+    top: 123px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border-width: 70px;
+    border-style: solid;
+    border-color: #ffffff #ffffff #ffffff #FF6A3D;
+    transform: rotate(45deg);
+}
+
+.ellipse-btn {
+    position: absolute;
+    transform: rotate(0deg);
+    left: 320px;
+    right: 30.6%;
+    top: 158px;
+    bottom: 3.18%;
+    background-color: #FF6A3D;
+    border: none;
+    outline: none;
+    z-index: 111;
+}
